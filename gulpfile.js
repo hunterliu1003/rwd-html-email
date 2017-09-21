@@ -21,8 +21,6 @@ gulp.task('html', function() {
     .pipe(gulpInlineCss({
       preserveMediaQueries: true,
       removeHtmlSelectors: true
-
-
     }))
     .pipe(gulpReplace('<!-- <style> -->', '<style>\n'+inliner('style/css/rt-foundation-emails.css')+'\n</style>'))
     .pipe(gulpHtmlMin({

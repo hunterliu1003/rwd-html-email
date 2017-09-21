@@ -40,3 +40,6 @@ $ npm install
 ```
 $ gulp
 ```
+
+### 網址
+執行gulp後可到[http://localhost:8080/](http://localhost:8080/)查看範例。
