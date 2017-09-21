@@ -42,8 +42,8 @@ $ gulp
 
 
 ## 測試
-順利安裝並執行 gulp 之後，轉換以及壓縮過後的 html 會存在 build 資料夾中。
+- 順利安裝並執行 gulp 之後，轉換以及壓縮過後的 html 會存在 build 資料夾中。
 
-可利用 [Putsmail](https://putsmail.com/tests/new) 進行較有效率的測試。
+- 可利用 [Putsmail](https://putsmail.com/tests/new) 進行較有效率的測試。
 
-Putsmail 可一次寄多個 Email 地址，並將壓縮過後的HTML程式碼貼上寄出。
+- Putsmail 可一次寄多個 Email 地址，並將壓縮過後的HTML程式碼貼上寄出。
