@@ -1,0 +1,20 @@
+{
+  "name": "rwd-html-email",
+  "version": "1.0.0",
+  "description": "rwd - html - email",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "generator-gulp-ink-email": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-replace": "^0.6.1",
+    "siphon-media-query": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hunterliu@staff.ruten.com.tw"
+}
