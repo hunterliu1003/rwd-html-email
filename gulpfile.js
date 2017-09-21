@@ -18,7 +18,12 @@ gulp.task('connect', function() {
 
 gulp.task('html', function() {
   gulp.src('*.html')
-    .pipe(gulpInlineCss({preserveMediaQueries:true}))
+    .pipe(gulpInlineCss({
+      preserveMediaQueries: true,
+      removeHtmlSelectors: true
+
+
+    }))
     .pipe(gulpReplace('<!-- <style> -->', '<style>\n'+inliner('style/css/rt-foundation-emails.css')+'\n</style>'))
     .pipe(gulpHtmlMin({
       collapseWhitespace: true,
