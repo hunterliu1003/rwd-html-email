@@ -4,7 +4,7 @@
 各家 Email (e.g. gmail, outlook, inbox, mobile)對於 HTML Email 的 CSS 解讀不盡相同，為了讓任何接收的Email不跑版，需要花很多時間維護。
 
 ### Zurb Foundation
-[Zurb Foundation](http://foundation.zurb.com) 針對 Responsive HTML Email做了很多整合，只要按照官方的教學文件就可以達成各家 Email 不跑版，不僅相容了大部分的 Email，更可以把 Inline Style 的 HTML 拆分成好維護的 HTML 和 CSS。許多細節有興趣的話還是建議到官網細讀。
+[Zurb Foundation](http://foundation.zurb.com) 針對 Responsive HTML Email 做了很多整合，只要按照官方的教學文件就可以達成各家 Email 不跑版，不僅相容了大部分的 Email，更可以把 Inline Style 的 HTML 拆分成好維護的 HTML 和 CSS。許多細節有興趣的話還是建議到官網細讀。
 
 #### HTML Email 教學文件
 - [Emails Docs](http://foundation.zurb.com/emails/docs/)
@@ -12,11 +12,11 @@
 - [Responsive Email Inliner](http://foundation.zurb.com/emails/inliner-v2.html)
 
 ## 安裝
-若要自動化的Inliner和分離的HTML和CSS則需要使用Gulp。
+若要自動化的Inliner和分離的 HTML 和 CSS 則需要使用 Gulp。
 
 Zurb Foundation官方的安裝實際上遇到了許多困難，因為需要安裝許多東西。
 
-另外對於已經很習慣使用gulp的人，仍然可嘗試這個簡單的範例，因為此範例不需要額外安裝ruby, gem, sass，更不會看到複雜的目錄結構，對於快速理解有很大的幫助。
+另外對於已經很習慣使用gulp的人，仍然可嘗試這個簡單的範例，因為此範例不需要額外安裝 Ruby, gem, SASS，更不會看到複雜的目錄結構，對於快速理解有很大的幫助。
 
 ### 本範例需安裝 Node
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
