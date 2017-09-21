@@ -1,7 +1,7 @@
 # RWD - HTML - Email
 
 ## 目的
-各家 Email (e.g. gmail, outlook, inbox, mobile)對於 HTML Email 的 CSS 解讀不盡相同，為了讓任何接收的Email不跑版，需要花很多時間維護。
+各家 Email (e.g. gmail, outlook, inbox, mobile) 對於 HTML Email 的 CSS 解讀不盡相同，為了讓任何接收的Email不跑版，需要花很多時間維護。
 
 ### Zurb Foundation
 [Zurb Foundation](http://foundation.zurb.com) 針對 Responsive HTML Email 做了很多整合，只要按照官方的教學文件就可以達成各家 Email 不跑版，不僅相容了大部分的 Email，更可以把 Inline Style 的 HTML 拆分成好維護的 HTML 和 CSS。許多細節有興趣的話還是建議到官網細讀。
@@ -43,7 +43,5 @@ $ gulp
 
 ## 測試
 - 順利安裝並執行 gulp 之後，轉換以及壓縮過後的 html 會存在 build 資料夾中。
-
 - 可利用 [Putsmail](https://putsmail.com/tests/new) 進行較有效率的測試。
-
 - Putsmail 可一次寄多個 Email 地址，並將壓縮過後的HTML程式碼貼上寄出。
