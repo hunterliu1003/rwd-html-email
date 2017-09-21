@@ -18,28 +18,27 @@ Zurb Foundation官方的安裝實際上遇到了許多困難，因為需要安�
 
 另外對於已經很習慣使用gulp的人，仍然可嘗試這個簡單的範例，因為此範例不需要額外安裝ruby, gem, sass，更不會看到複雜的目錄結構，對於快速理解有很大的幫助。
 
-
-### 本範例需安裝 [Node](https://nodejs.org/en/download/)
+### 本範例需安裝 Node
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 ### 全域安裝 Gulp
 ```
 $ npm install -g gulp
 ```
-
 ### 下載此範例並進入該資料夾
 ```
 $ git clone https://github.com/hunterliu1003/rwd-html-email.git
 $ cd rwd-html-email
 ```
-
 ### 安裝所需的 node_modules
 ```
 $ npm install
 ```
-
 ### 執行 gulp
 ```
 $ gulp
 ```
-
 ### 網址
-執行gulp後可到[http://localhost:8080/](http://localhost:8080/)查看範例。
+執行 gulp 後可到 [http://localhost:8080/](http://localhost:8080/) 查看範例。
+
+
+## 測試
