@@ -21,14 +21,22 @@ Zurb Foundation官方的安裝實際上遇到了許多困難，因為需要安�
 
 ### 本範例需安裝 [Node](https://nodejs.org/en/download/)
 ### 全域安裝 Gulp
->$ npm install -g gulp
+```
+$ npm install -g gulp
+```
 
 ### 下載此範例並進入該資料夾
->$ git clone https://github.com/hunterliu1003/rwd-html-email.git
->$ cd rwd-html-email
+```
+$ git clone https://github.com/hunterliu1003/rwd-html-email.git
+$ cd rwd-html-email
+```
 
 ### 安裝所需的 node_modules
->$ npm install
+```
+$ npm install
+```
 
 ### 執行 gulp
->$ gulp
+```
+$ gulp
+```
