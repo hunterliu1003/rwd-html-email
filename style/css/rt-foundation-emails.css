@@ -139,7 +139,7 @@
   img.float-left{float:left;text-align:left}
   img.float-right{float:right;text-align:right}
   img.float-center,img.text-center{margin:0 auto;float:none;text-align:center}
-  table.float-center,td.float-center,th.float-center{margin:0 auto;float:none;text-align:center}
+  table.float-center,td.float-center,th.float-center{margin:0 auto!important;float:none;text-align:center}
   table.body table.container .hide-for-large{display:none;width:0;mso-hide:all;overflow:hidden;max-height:0;font-size:0;width:0;line-height:0}
   @media only screen and (max-width: 596px) {
   table.body table.container .hide-for-large{display:block!important;width:auto!important;overflow:visible!important}
@@ -177,15 +177,15 @@
   .stat{font-size:40px;line-height:1}
   p + .stat{margin-top:-16px}
   table.button{width:auto!important;margin:0 0 16px}
-  table.button table td{text-align:left;color:#fefefe;background:#2199e8;border:2px solid #2199e8}
-  table.button table td a{font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;color:#fefefe;text-decoration:none;display:inline-block;padding:8px 16px;border:0 solid #2199e8;border-radius:3px}
-  table.button.radius table td{border-radius:3px;border:none}
+  table.button table td{text-align:left;color:#fefefe;background:#2199e8}
+  table.button table td a{font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:normal;color:#fefefe;text-decoration:none;display:inline-block;padding:8px 16px;border:0 solid #2199e8;border-radius:3px}
+  table.button.radius table td{border-radius:4px;border:none}
   table.button.rounded table td{border-radius:500px;border:none}
   table.button:hover table tr td a,table.button:active table tr td a,table.button table tr td a:visited,table.button.tiny:hover table tr td a,table.button.tiny:active table tr td a,table.button.tiny table tr td a:visited,table.button.small:hover table tr td a,table.button.small:active table tr td a,table.button.small table tr td a:visited,table.button.large:hover table tr td a,table.button.large:active table tr td a,table.button.large table tr td a:visited{color:#fefefe}
   table.button.tiny table td,table.button.tiny table a{padding:4px 8px}
   table.button.tiny table a{font-size:10px;font-weight:400}
   table.button.small table td,table.button.small table a{padding:5px 10px;font-size:12px}
-  table.button.large table a{padding:10px 20px;font-size:20px}
+  table.button.large table a{padding:10px 20px;font-size:15px}
   table.button.expand,table.button.expanded{width:100%!important}
   table.button.expand table,table.button.expanded table{width:100%}
   table.button.expand table a,table.button.expanded table a{text-align:center;width:100%;padding-left:0;padding-right:0}
@@ -207,6 +207,10 @@
   table.button.alert table a{border:0 solid #ec5840}
   table.button.alert:hover table td{background:#e23317}
   table.button.alert:hover table a{border:0 solid #e23317}
+  table.button.submit table td{background:#f05940;}
+  table.button.submit table a{border:0 solid #f05940}
+  // table.button.submit:hover table td{background:#e21c00}
+  // table.button.submit:hover table a{border:0 solid #e21c00}
   table.callout{margin-bottom:16px}
   th.callout-inner{width:100%;border:1px solid #cbcbcb;padding:10px;background:#fefefe}
   th.callout-inner.primary{background:#def0fc;border:1px solid #444;color:#0D0C0B}
