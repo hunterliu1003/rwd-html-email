@@ -18,7 +18,7 @@ Zurb Foundation官方的安裝實際上遇到了許多困難，因為需要安�
 
 另外對於已經很習慣使用gulp的人，仍然可嘗試這個簡單的範例，因為此範例不需要額外安裝 Ruby, gem, SASS，更不會看到複雜的目錄結構，對於快速理解有很大的幫助。
 
-### 本範例需安裝 Node
+### 本範例需安裝 Node < 12
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 ### 全域安裝 Gulp
 ```
