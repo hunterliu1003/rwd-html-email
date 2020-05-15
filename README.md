@@ -7,9 +7,9 @@
 [Zurb Foundation](http://foundation.zurb.com) 針對 Responsive HTML Email 做了很多整合，只要按照官方的教學文件就可以達成各家 Email 不跑版，不僅相容了大部分的 Email，更可以把 Inline Style 的 HTML 拆分成好維護的 HTML 和 CSS。許多細節有興趣的話還是建議到官網細讀。
 
 #### HTML Email 教學文件
-- [Emails Docs](http://foundation.zurb.com/emails/docs/)
+- [Emails Docs](https://get.foundation/emails/docs/)
 #### 官方的 Inliner
-- [Responsive Email Inliner](http://foundation.zurb.com/emails/inliner-v2.html)
+- [Responsive Email Inliner](https://get.foundation/emails/inliner.html)
 
 ## 安裝
 若要自動化的Inliner和分離的 HTML 和 CSS 則需要使用 Gulp。
