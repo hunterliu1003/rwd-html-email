@@ -9,7 +9,7 @@
 #### HTML Email 教學文件
 - [Emails Docs](https://get.foundation/emails/docs/)
 #### 官方的 Inliner
-- [Responsive Email Inliner](https://get.foundation/emails/inliner.html)
+- [Responsive Email Inliner](https://get.foundation/emails/inliner)
 
 ## 安裝
 若要自動化的Inliner和分離的 HTML 和 CSS 則需要使用 Gulp。
